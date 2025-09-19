@@ -1,0 +1,22 @@
+.courses-page {
+  text-align: center;
+}
+
+.courses-page h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: var(--dark-green);
+}
+
+.courses-page .subtitle {
+  font-size: 1.2rem;
+  color: var(--light-text-color);
+  margin-bottom: 40px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}

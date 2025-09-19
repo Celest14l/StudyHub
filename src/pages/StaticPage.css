@@ -1,0 +1,52 @@
+/* src/pages/StaticPage.css */
+
+.static-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.static-card {
+  width: 100%;
+  max-width: 800px;
+}
+
+.static-card h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+}
+
+/* --- NEW STYLES FOR THE IMAGE --- */
+.about-image {
+  display: block;
+  width: 100%;
+  max-width: 450px; /* Controls the maximum size of the image */
+  height: auto;     /* Maintains the correct aspect ratio */
+  margin: 10px auto 30px auto; /* Centers the image and adds vertical space */
+  border-radius: 12px; /* Matches the card's rounded corners */
+  box-shadow: var(--shadow-md); /* Adds a subtle shadow for depth */
+}
+/* --- END OF NEW STYLES --- */
+
+.static-card p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.static-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.static-card li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.static-card li strong {
+  color: var(--dark-green);
+  margin-right: 8px;
+}

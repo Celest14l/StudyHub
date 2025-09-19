@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--dark-green);
+  color: var(--light-green);
+  padding: 25px 0;
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-nav a {
+  color: var(--light-green);
+  margin: 0 10px;
+}
+.footer-nav a:hover {
+  color: white;
+}

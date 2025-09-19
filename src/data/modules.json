@@ -1,0 +1,82 @@
+[
+  {
+    "id": "artificial-intelligence",
+    "title": "AI Foundations",
+    "description": "Grasp the fundamentals of Artificial Intelligence, from core concepts to its real-world applications.",
+    "lessons": [
+      { "id": "ai-1", "title": "What Is AI?", "youtubeId": "2ePf9rue1Ao" },
+      { "id": "ai-2", "title": "Neural Networks Explained", "youtubeId": "bfmFfD2RIcg" },
+      { "id": "ai-3", "title": "How Large Language Models Work", "youtubeId": "iR2O2GPbB0E" }
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "title": "Machine Learning Essentials",
+    "description": "Dive into the world of machine learning. Learn about algorithms and how machines learn from data.",
+    "lessons": [
+      { "id": "ml-1", "title": "What Is Machine Learning?", "youtubeId": "ukzFI9rgwfU" },
+      { "id": "ml-2", "title": "Supervised vs. Unsupervised Learning", "youtubeId": " razlikg1PZ_2g" },
+      { "id": "ml-3", "title": "Intro to Scikit-Learn", "youtubeId": "0B5eIE_1vpU" }
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science Kickstart",
+    "description": "Start your journey in data science. Understand the lifecycle from data collection to insight.",
+    "lessons": [
+      { "id": "ds-1", "title": "What is Data Science?", "youtubeId": "XUwb3c6oJ-4" },
+      { "id": "ds-2", "title": "The Data Science Lifecycle", "youtubeId": "BEsfs2Y2i_g" },
+      { "id": "ds-3", "title": "Python for Data Science", "youtubeId": "N5v712mCTng" }
+    ]
+  },
+  {
+    "id": "react-advanced",
+    "title": "React: Beyond the Basics",
+    "description": "Deepen your React knowledge with advanced hooks, state management, and performance patterns.",
+    "lessons": [
+      { "id": "ra-1", "title": "What is React?", "youtubeId": "bMknfKXIFA8" },
+      { "id": "ra-2", "title": "Components, Props, and State", "youtubeId": "dGcsH_NfkNs" },
+      { "id": "ra-3", "title": "The useState Hook Explained", "youtubeId": "O6P86uwfdR0" }
+    ]
+  },
+  {
+    "id": "flutter-development",
+    "title": "Flutter for Beginners",
+    "description": "Build beautiful, natively compiled applications for mobile and web from a single codebase with Flutter.",
+    "lessons": [
+      { "id": "fl-1", "title": "What is Flutter?", "youtubeId": "l6g4-qS7-vQ" },
+      { "id": "fl-2", "title": "Setting Up Your Environment", "youtubeId": "72-Nl_26M_I" },
+      { "id": "fl-3", "title": "Building Your First App", "youtubeId": "pB0W3n_d4rM" }
+    ]
+  },
+  {
+    "id": "nodejs-backend",
+    "title": "Node.js & Express API",
+    "description": "Learn to build fast and scalable server-side applications and RESTful APIs with Node.js and Express.",
+    "lessons": [
+      { "id": "nj-1", "title": "What is Node.js?", "youtubeId": "TlB_eWDSMt4" },
+      { "id": "nj-2", "title": "Asynchronous JavaScript Explained", "youtubeId": "8aGhZQkoFbQ" },
+      { "id": "nj-3", "title": "Build a Simple API with Express", "youtubeId": "SccSCuHhOw0" }
+    ]
+  },
+  {
+    "id": "python-programming",
+    "title": "Python for Everybody",
+    "description": "A comprehensive introduction to Python programming, covering data structures, and core principles.",
+    "lessons": [
+      { "id": "py-1", "title": "Python for Beginners", "youtubeId": "kqtD5dpn9C8" },
+      { "id":"py-2", "title": "Data Structures in Python", "youtubeId": "R-HLU9A5Q-w" },
+      { "id": "py-3", "title": "Object-Oriented Programming", "youtubeId": "JezEbz0Gle0" }
+    ]
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design Principles",
+    "description": "Discover the principles of creating intuitive and beautiful user interfaces and user experiences.",
+    "lessons": [
+      { "id": "ux-1", "title": "What is UI vs. UX?", "youtubeId": "5e1cmprH-wM" },
+      { "id": "ux-2", "title": "Core Principles of UI Design", "youtubeId": "M2D25p_d3_w" },
+      { "id": "ux-3", "title": "Introduction to Figma", "youtubeId": "eZJOSK4gXlA" }
+    ]
+  }
+]

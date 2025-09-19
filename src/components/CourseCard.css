@@ -1,0 +1,50 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.course-card h3 {
+  margin-top: 0;
+}
+.course-card p {
+  color: var(--text-secondary);
+  flex-grow: 1; /* Pushes button to bottom */
+  margin-bottom: 20px;
+}
+.progress-bar-container {
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  height: 8px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.progress-bar {
+  height: 100%;
+  background-color: var(--primary-green);
+  transition: width 0.5s ease-in-out;
+}
+.progress-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  display: block;
+}
+.view-course-button {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto; /* Aligns to bottom */
+}
+.view-course-button:hover {
+  background-color: var(--dark-green);
+  text-decoration: none;
+  color: white;
+}

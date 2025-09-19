@@ -1,0 +1,49 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s ease;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: var(--light-text-color);
+}
+
+.task-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-item button:hover svg {
+  color: var(--dark-green); /* Darken on hover for check/circle */
+}
+
+.task-toggle-button {
+  margin-right: 10px;
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.task-delete-button {
+  margin-left: 10px;
+}
+
+.task-delete-button:hover svg {
+  color: #e74c3c; /* Red color on hover for trash */
+}
